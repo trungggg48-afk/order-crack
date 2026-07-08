@@ -12,7 +12,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 /**
  * PhoOrder — Hệ thống đặt hàng từ player
  *
- * Tác giả: Việt Hoàng | phosmp.meowcloud.qzz.io
+ * Tác giả: MouIcchatta crack | phosmp.meowcloud.qzz.io
  * Website: https://phosmp.meowcloud.qzz.io
  */
 public final class PhoOrder extends PhoPlugin implements Listener {
