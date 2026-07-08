@@ -1,0 +1,20 @@
+name: PhoOrder
+version: 1.0.0
+main: io.phosmp.order.PhoOrder
+api-version: '1.21'
+authors: [VietHoang]
+description: "Hệ thống đặt hàng từ player"
+website: https://phosmp.meowcloud.qzz.io
+
+depend: [PhoCore]
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  order:
+    description: "Đặt/nhận đơn hàng"
+    usage: "/<command>"
+
+permissions:
+  phosmp.order:
+    description: "Quyền phosmp.order"
+    default: true
